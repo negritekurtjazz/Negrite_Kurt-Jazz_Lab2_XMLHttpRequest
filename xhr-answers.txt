@@ -1,0 +1,12 @@
+1. What is the difference between readyState and status in XMLHttpRequest?
+
+readyState shows the progress of the request, while status shows the HTTP response code, such as 200 for success.
+
+2. How can you make the request asynchronous?
+
+Make it asynchronous by using true in the open() method:
+xhr.open("GET", "example.php", true);
+
+3. Why is asynchronous communication recommended for web applications?
+
+Asynchronous communication keeps the webpage responsive while waiting for the server's response.
